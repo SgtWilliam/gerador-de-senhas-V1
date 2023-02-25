@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script defer src="javaScript/generator.js"></script>
+</head>
+<body class="bodyALL">
+    <div class="DivText">
+        <h1 class="tittleO">Gerador de Senhas</h1>
+    </div>
+    <div id="display-pass-ID" class="displayClass">
+        <p class="local-pass-display">Clique no botão gerar</p>
+    </div>
+    <form class="formInputNumber">
+        <p style="margin-bottom: 0px; margin-top: 0px">Tamanho</p>
+        <input type="number" id="input-pass-size" min="3" max="20" step="3" value="3">
+    </form>
+    <form class="formInput">
+        <input type="checkbox" id="input-pass-characters" >Caracteres</input>
+        <input type="checkbox" id="input-pass-numbers" >Numeros</input>
+        <input type="checkbox" id="input-pass-capital-letter" >Maiusculos</input>
+        <input type="checkbox" id="input-pass-lowercase">Minusculos</input>
+    </form>
+    <div class="containerHTML">
+
+    </div>
+    <div class="bodyText">
+        <button id="btn-gerar">Gerar Senha</button>
+    </div>
+
+
+</body>
+</html>
